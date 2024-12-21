@@ -1,0 +1,148 @@
+/* Estilos do Pódium */
+.podium {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 2rem;
+    margin: 3rem 0;
+    padding: 2rem;
+    background: rgba(10, 10, 31, 0.5);
+    border-radius: 12px;
+    border: 1px solid var(--neon-primary);
+}
+
+.podium-place {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.podium-place:hover {
+    transform: translateY(-10px);
+}
+
+.first {
+    order: 2;
+    height: 200px;
+    background: rgba(255, 215, 0, 0.1);
+    border: 2px solid #FFD700;
+}
+
+.second {
+    order: 1;
+    height: 170px;
+    background: rgba(192, 192, 192, 0.1);
+    border: 2px solid #C0C0C0;
+}
+
+.third {
+    order: 3;
+    height: 140px;
+    background: rgba(205, 127, 50, 0.1);
+    border: 2px solid #CD7F32;
+}
+
+.avatar {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.medal {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.name {
+    font-weight: 600;
+    color: var(--neon-primary);
+    margin-bottom: 0.5rem;
+}
+
+.score {
+    font-size: 1.2rem;
+    color: var(--light-text);
+}
+
+/* Estilos dos Dashboards */
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.dashboard-card {
+    background: var(--darker-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid var(--neon-secondary);
+}
+
+.dashboard-card h3 {
+    color: var(--neon-primary);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.stats {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.stat-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: rgba(10, 10, 31, 0.5);
+    border-radius: 8px;
+}
+
+.stat-label {
+    color: var(--light-text);
+}
+
+.stat-value {
+    color: var(--neon-primary);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* Estilos da Tabela de Ranking */
+.ranking-table {
+    background: var(--darker-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid var(--neon-primary);
+    margin-top: 3rem;
+}
+
+.ranking-table h3 {
+    color: var(--neon-primary);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 255, 242, 0.1);
+}
+
+th {
+    color: var(--neon-primary);
+    font-weight: 600;
+}
+
+tr:hover {
+    background: rgba(0, 255, 242, 0.05);
+} 

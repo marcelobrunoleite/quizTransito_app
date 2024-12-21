@@ -1,0 +1,126 @@
+{
+  "placas": {
+    "regulamentacao": [
+      {
+        "id": "R-1",
+        "nome": "Parada Obrigatória",
+        "imagem": "images/placas/r1.png",
+        "formato": "Octogonal",
+        "cores": "Fundo vermelho, orla interna branca, letras brancas",
+        "significado": "Indica ao condutor que deve parar seu veículo antes de entrar ou cruzar a via/pista."
+      },
+      {
+        "id": "R-2",
+        "nome": "Dê a Preferência",
+        "imagem": "images/placas/r2.png",
+        "formato": "Triangular",
+        "cores": "Fundo branco, orla vermelha",
+        "significado": "Indica ao condutor a obrigatoriedade de dar preferência de passagem ao veículo que circula na via em que vai entrar ou cruzar."
+      },
+      {
+        "id": "R-3",
+        "nome": "Sentido Proibido",
+        "imagem": "images/placas/r3.png",
+        "formato": "Circular",
+        "cores": "Fundo vermelho, orla branca, faixa diagonal branca",
+        "significado": "Indica ao condutor a proibição de seguir em frente ou entrar na via/área."
+      }
+    ],
+    "advertencia": [
+      {
+        "id": "A-1a",
+        "nome": "Curva Acentuada à Esquerda",
+        "imagem": "images/placas/a1a.png",
+        "formato": "Quadrada, colocada em diagonal (losango)",
+        "cores": "Fundo amarelo, orla interna preta, símbolo preto",
+        "significado": "Adverte o condutor sobre a existência de curva acentuada à esquerda."
+      },
+      {
+        "id": "A-1b",
+        "nome": "Curva Acentuada à Direita",
+        "imagem": "images/placas/a1b.png",
+        "formato": "Quadrada, colocada em diagonal (losango)",
+        "cores": "Fundo amarelo, orla interna preta, símbolo preto",
+        "significado": "Adverte o condutor sobre a existência de curva acentuada à direita."
+      }
+    ],
+    "indicacao": [
+      {
+        "id": "I-1",
+        "nome": "Placa de Identificação de Rodovias e Estradas",
+        "imagem": "images/placas/i1.png",
+        "formato": "Variável",
+        "cores": "Fundo branco, orla preta",
+        "significado": "Identifica as rodovias e estradas pan-americanas, federais e estaduais."
+      }
+    ],
+    "educativas": [
+      {
+        "id": "ED-1",
+        "nome": "Placa Educativa",
+        "imagem": "images/placas/ed1.png",
+        "formato": "Retangular",
+        "cores": "Fundo branco, orla preta, legendas e símbolos pretos",
+        "significado": "Tem a função de educar os usuários da via quanto ao seu comportamento adequado e seguro no trânsito."
+      }
+    ],
+    "servicos_auxiliares": [
+      {
+        "id": "SAU-1",
+        "nome": "Pronto Socorro",
+        "imagem": "images/placas/sau1.png",
+        "formato": "Retangular",
+        "cores": "Fundo azul, símbolo branco",
+        "significado": "Indica ao usuário da via a existência de serviço de pronto socorro médico."
+      }
+    ],
+    "atrativos_turisticos": [
+      {
+        "id": "AT-1",
+        "nome": "Área de Descanso",
+        "imagem": "images/placas/at1.png",
+        "formato": "Retangular",
+        "cores": "Fundo marrom, símbolo branco",
+        "significado": "Indica ao usuário da via a existência de área de descanso."
+      }
+    ]
+  },
+  "categorias": {
+    "regulamentacao": {
+      "nome": "Placas de Regulamentação",
+      "descricao": "Têm por finalidade informar aos usuários das condições, proibições, obrigações ou restrições no uso das vias.",
+      "cores_padrao": "Geralmente círculo ou octógono vermelho com fundo branco",
+      "formatos": ["Circular", "Octogonal", "Triangular"]
+    },
+    "advertencia": {
+      "nome": "Placas de Advertência",
+      "descricao": "Têm por finalidade alertar aos usuários da via para condições potencialmente perigosas.",
+      "cores_padrao": "Fundo amarelo, borda e símbolos pretos",
+      "formato": "Quadrada, colocada em diagonal (losango)"
+    },
+    "indicacao": {
+      "nome": "Placas de Indicação",
+      "descricao": "Têm por finalidade indicar as vias e locais de interesse.",
+      "cores_padrao": "Fundo verde ou azul com letras brancas",
+      "formato": "Retangular"
+    },
+    "educativas": {
+      "nome": "Placas Educativas",
+      "descricao": "Têm a função de educar os usuários da via quanto ao seu comportamento adequado e seguro no trânsito.",
+      "cores_padrao": "Fundo branco, mensagens em preto",
+      "formato": "Retangular"
+    },
+    "servicos_auxiliares": {
+      "nome": "Placas de Serviços Auxiliares",
+      "descricao": "Indicam aos usuários da via os locais onde os mesmos podem dispor dos serviços indicados.",
+      "cores_padrao": "Fundo azul, símbolos pretos ou brancos",
+      "formato": "Retangular"
+    },
+    "atrativos_turisticos": {
+      "nome": "Placas de Atrativos Turísticos",
+      "descricao": "Indicam aos usuários da via os locais onde os mesmos podem dispor dos atrativos turísticos existentes.",
+      "cores_padrao": "Fundo marrom, símbolos brancos",
+      "formato": "Retangular"
+    }
+  }
+} 

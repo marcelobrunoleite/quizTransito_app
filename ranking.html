@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking - Quiz de Trânsito</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="ranking.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header (mesmo do index.html) -->
+    
+    <main class="site-main">
+        <div class="container">
+            <section class="ranking-section">
+                <h2>Ranking dos Melhores</h2>
+                
+                <!-- Pódium -->
+                <div class="podium">
+                    <div class="podium-place second">
+                        <div class="avatar">👤</div>
+                        <div class="medal">🥈</div>
+                        <div class="name">2º Lugar</div>
+                        <div class="score">95%</div>
+                    </div>
+                    <div class="podium-place first">
+                        <div class="avatar">👑</div>
+                        <div class="medal">🥇</div>
+                        <div class="name">1º Lugar</div>
+                        <div class="score">98%</div>
+                    </div>
+                    <div class="podium-place third">
+                        <div class="avatar">👤</div>
+                        <div class="medal">🥉</div>
+                        <div class="name">3º Lugar</div>
+                        <div class="score">92%</div>
+                    </div>
+                </div>
+
+                <!-- Dashboards -->
+                <div class="dashboard-grid">
+                    <div class="dashboard-card">
+                        <h3>Estatísticas Gerais</h3>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <span class="stat-label">Total de Simulados</span>
+                                <span class="stat-value">1,234</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Média Geral</span>
+                                <span class="stat-value">76%</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Taxa de Aprovação</span>
+                                <span class="stat-value">82%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-card">
+                        <h3>Seu Desempenho</h3>
+                        <div class="performance-chart">
+                            <canvas id="performanceChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tabela de Ranking -->
+                <div class="ranking-table">
+                    <h3>Top 10 Jogadores</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Posição</th>
+                                <th>Jogador</th>
+                                <th>Pontuação</th>
+                                <th>Simulados</th>
+                                <th>Média</th>
+                            </tr>
+                        </thead>
+                        <tbody id="rankingTableBody">
+                            <!-- Preenchido via JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer (mesmo do index.html) -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="ranking.js"></script>
+</body>
+</html> 

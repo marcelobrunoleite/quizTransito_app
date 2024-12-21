@@ -1,0 +1,1802 @@
+[
+    {
+        "id": "Q001",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual é a velocidade máxima permitida em vias arteriais urbanas quando não houver sinalização?",
+        "alternativas": {
+            "a": "60 km/h",
+            "b": "40 km/h",
+            "c": "80 km/h",
+            "d": "70 km/h",
+            "e": "50 km/h"
+        },
+        "resposta_correta": "a",
+        "explicacao": "Em vias arteriais urbanas, quando não houver sinalização regulamentadora, a velocidade máxima permitida é de 60 km/h.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q002",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "O que significa a placa R-1 (Parada Obrigatória)?",
+        "alternativas": {
+            "a": "Dê preferência",
+            "b": "Pare apenas se houver outros veículos",
+            "c": "Parada obrigatória",
+            "d": "Velocidade máxima permitida",
+            "e": "Proibido estacionar"
+        },
+        "resposta_correta": "c",
+        "explicacao": "A placa R-1 (PARE) indica que o condutor deve parar completamente o veículo antes de prosseguir.",
+        "dificuldade": "facil"
+    },
+    {
+        "id": "Q003",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual é a validade da Carteira Nacional de Habilitação para condutores com idade inferior a 50 anos?",
+        "alternativas": {
+            "a": "2 anos",
+            "b": "5 anos",
+            "c": "10 anos",
+            "d": "3 anos",
+            "e": "7 anos"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Para condutores com menos de 50 anos, a CNH tem validade de 10 anos.",
+        "dificuldade": "facil"
+    },
+    {
+        "id": "Q004",
+        "tema": "Primeiros Socorros",
+        "pergunta": "Em caso de acidente com vítima, o que o condutor deve fazer primeiro?",
+        "alternativas": {
+            "a": "Remover as vítimas do local",
+            "b": "Sinalizar o local para evitar novos acidentes",
+            "c": "Chamar a polícia",
+            "d": "Fotografar o acidente",
+            "e": "Chamar um guincho"
+        },
+        "resposta_correta": "b",
+        "explicacao": "A primeira providência é sinalizar o local para evitar novos acidentes e proteger as vítimas.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q005",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual é a concentração de álcool por litro de sangue que caracteriza infração gravíssima?",
+        "alternativas": {
+            "a": "Qualquer concentração",
+            "b": "2 decigramas",
+            "c": "6 decigramas",
+            "d": "8 decigramas",
+            "e": "4 decigramas"
+        },
+        "resposta_correta": "a",
+        "explicacao": "Qualquer concentração de álcool por litro de sangue caracteriza infração gravíssima.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q006",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "O que significa a placa A-18 (Saliência ou lombada)?",
+        "alternativas": {
+            "a": "Depressão na pista",
+            "b": "Pista irregular",
+            "c": "Lombada ou saliência na pista",
+            "d": "Declive acentuado",
+            "e": "Curva acentuada"
+        },
+        "resposta_correta": "c",
+        "explicacao": "A placa A-18 adverte sobre a existência de saliência ou lombada na pista.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q007",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual é a idade mínima para obter a habilitação na categoria B?",
+        "alternativas": {
+            "a": "16 anos",
+            "b": "17 anos",
+            "c": "18 anos",
+            "d": "21 anos",
+            "e": "20 anos"
+        },
+        "resposta_correta": "c",
+        "explicacao": "A idade mínima para obter a CNH categoria B é 18 anos.",
+        "dificuldade": "facil"
+    },
+    {
+        "id": "Q008",
+        "tema": "Direção Defensiva",
+        "pergunta": "O que fazer quando o semáforo está com luz amarela?",
+        "alternativas": {
+            "a": "Aumentar a velocidade para passar",
+            "b": "Parar o veículo, se possível com segurança",
+            "c": "Buzinar e passar",
+            "d": "Continuar normalmente",
+            "e": "Reduzir e passar lentamente"
+        },
+        "resposta_correta": "b",
+        "explicacao": "A luz amarela indica que o condutor deve parar o veículo, se isso puder ser feito com segurança.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q009",
+        "tema": "Direção Defensiva",
+        "pergunta": "Qual é a distância mínima para ultrapassagem de ciclistas?",
+        "alternativas": {
+            "a": "0,5 metro",
+            "b": "1,0 metro",
+            "c": "1,5 metro",
+            "d": "2,0 metros",
+            "e": "2,5 metros"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Ao ultrapassar bicicletas, deve-se manter uma distância lateral mínima de 1,5 metro.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q010",
+        "tema": "Direção Defensiva",
+        "pergunta": "Em que situação o uso do pisca-alerta é permitido?",
+        "alternativas": {
+            "a": "Em situações de emergência",
+            "b": "Para agradecer outro motorista",
+            "c": "Para indicar que vai estacionar",
+            "d": "Para cumprimentar pedestres",
+            "e": "Para indicar conversão"
+        },
+        "resposta_correta": "a",
+        "explicacao": "O pisca-alerta deve ser usado apenas em situações de emergência ou imobilização.",
+        "dificuldade": "facil"
+    },
+    {
+        "id": "Q011",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "De acordo com o CTB, qual é a idade mínima para obter a ACC (Autorização para Conduzir Ciclomotor)?",
+        "alternativas": {
+            "a": "14 anos",
+            "b": "16 anos",
+            "c": "18 anos",
+            "d": "21 anos",
+            "e": "20 anos"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Conforme Art. 140 do CTB, a ACC só pode ser obtida a partir dos 18 anos de idade.",
+        "dificuldade": "facil"
+    },
+    {
+        "id": "Q012",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual é a penalidade para quem dirige veículo sem possuir CNH ou permissão para dirigir?",
+        "alternativas": {
+            "a": "Apenas multa leve",
+            "b": "Multa (três vezes) e apreensão do veículo",
+            "c": "Apenas advertência por escrito",
+            "d": "Multa simples",
+            "e": "Apenas retenção do veículo"
+        },
+        "resposta_correta": "b",
+        "explicacao": "De acordo com o Art. 162, I do CTB, dirigir sem habilitação implica em multa (três vezes) e apreensão do veículo.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q013",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Segundo o CTB, qual é o nível máximo de alcoolemia (concentração de álcool no sangue) permitido para condutores?",
+        "alternativas": {
+            "a": "2 decigramas por litro de sangue",
+            "b": "6 decigramas por litro de sangue",
+            "c": "4 decigramas por litro de sangue",
+            "d": "Zero",
+            "e": "1 decigrama por litro de sangue"
+        },
+        "resposta_correta": "d",
+        "explicacao": "Conforme Art. 165 do CTB, é proibido qualquer quantidade de álcool no sangue (tolerância zero).",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q014",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual é a velocidade máxima permitida para automóveis em vias urbanas arteriais quando não houver sinalização regulamentadora?",
+        "alternativas": {
+            "a": "60 km/h",
+            "b": "40 km/h",
+            "c": "80 km/h",
+            "d": "70 km/h",
+            "e": "50 km/h"
+        },
+        "resposta_correta": "a",
+        "explicacao": "De acordo com o Art. 61, §1º do CTB, nas vias urbanas arteriais, a velocidade máxima é de 60 km/h quando não houver sinalização regulamentadora.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q015",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual documento é de porte obrigatório para o condutor do veículo?",
+        "alternativas": {
+            "a": "IPVA",
+            "b": "Carteira de Identidade",
+            "c": "CNH ou PPD",
+            "d": "Comprovante de residência",
+            "e": "Nota fiscal do veículo"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Segundo o Art. 159 do CTB, o condutor deve portar sua CNH ou Permissão para Dirigir original.",
+        "dificuldade": "facil"
+    },
+    {
+        "id": "Q016",
+        "tema": "Primeiros Socorros",
+        "pergunta": "Em caso de acidente com vítima, quando o condutor PODE deixar de prestar socorro?",
+        "alternativas": {
+            "a": "Quando houver risco pessoal",
+            "b": "Quando estiver atrasado",
+            "c": "Quando a vítima não quiser",
+            "d": "Quando outro veículo parar",
+            "e": "Nunca pode deixar de prestar socorro"
+        },
+        "resposta_correta": "a",
+        "explicacao": "Conforme Art. 176 do CTB, o condutor pode deixar de prestar socorro quando houver risco à sua própria integridade física.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q017",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual é a infração cometida ao ultrapassar pelo acostamento?",
+        "alternativas": {
+            "a": "Leve",
+            "b": "Média",
+            "c": "Grave",
+            "d": "Gravíssima",
+            "e": "Não é infração"
+        },
+        "resposta_correta": "d",
+        "explicacao": "De acordo com o Art. 202 do CTB, ultrapassar pelo acostamento é infração gravíssima.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q018",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual é o prazo para identificar o condutor infrator quando o proprietário do veículo é notificado de uma infração?",
+        "alternativas": {
+            "a": "15 dias",
+            "b": "30 dias",
+            "c": "45 dias",
+            "d": "60 dias",
+            "e": "90 dias"
+        },
+        "resposta_correta": "a",
+        "explicacao": "Segundo o Art. 257, §7º do CTB, o prazo para identificação do condutor infrator é de 15 dias.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q019",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual é a categoria mínima de habilitação para conduzir um veículo de carga com peso bruto total de 3.600 kg?",
+        "alternativas": {
+            "a": "ACC",
+            "b": "A",
+            "c": "B",
+            "d": "C",
+            "e": "D"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Conforme Art. 143 do CTB, a categoria C é necessária para veículos de carga com peso bruto total superior a 3.500 kg.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q020",
+        "tema": "Direção Defensiva",
+        "pergunta": "Em que situação o condutor pode usar a buzina?",
+        "alternativas": {
+            "a": "Para apressar o pedestre",
+            "b": "Para cumprimentar amigos",
+            "c": "Em toque breve para fazer advertência necessária",
+            "d": "Para chamar alguém",
+            "e": "Para expressar descontentamento"
+        },
+        "resposta_correta": "c",
+        "explicacao": "De acordo com o Art. 41 do CTB, o uso de buzina só é permitido em toque breve como advertência para evitar acidentes.",
+        "dificuldade": "facil"
+    },
+    {
+        "id": "Q021",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual é a penalidade para quem estaciona o veículo sobre a faixa de pedestres?",
+        "alternativas": {
+            "a": "Advertência",
+            "b": "Multa leve",
+            "c": "Multa média",
+            "d": "Multa grave",
+            "e": "Multa gravíssima"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Segundo o Art. 181, VIII do CTB, estacionar sobre a faixa de pedestres é infração média.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q022",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual é o período de validade da CNH para condutores com idade entre 50 e 70 anos?",
+        "alternativas": {
+            "a": "1 ano",
+            "b": "2 anos",
+            "c": "3 anos",
+            "d": "5 anos",
+            "e": "10 anos"
+        },
+        "resposta_correta": "d",
+        "explicacao": "Conforme Art. 147, §2º do CTB, para condutores entre 50 e 70 anos, a validade da CNH é de 5 anos.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q023",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "O que significa a placa R-6a?",
+        "alternativas": {
+            "a": "Proibido estacionar",
+            "b": "Proibido parar e estacionar",
+            "c": "Estacionamento regulamentado",
+            "d": "Proibido trânsito de pedestres",
+            "e": "Parada obrigatória"
+        },
+        "resposta_correta": "a",
+        "explicacao": "A placa R-6a (Proibido estacionar) regulamenta a proibição de estacionamento de veículos, conforme Manual Brasileiro de Sinalização de Trânsito - Volume I.",
+        "dificuldade": "facil"
+    },
+    {
+        "id": "Q024",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual é a distância mínima para iniciar a sinalização de acidente em vias urbanas?",
+        "alternativas": {
+            "a": "10 metros",
+            "b": "20 metros",
+            "c": "30 metros",
+            "d": "40 metros",
+            "e": "50 metros"
+        },
+        "resposta_correta": "c",
+        "explicacao": "De acordo com o Art. 76 do CTB, em vias urbanas, a sinalização deve ser iniciada a pelo menos 30 metros do local do acidente.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q025",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual é o número máximo de pontos que um condutor pode atingir em 12 meses sem ter a CNH suspensa?",
+        "alternativas": {
+            "a": "15 pontos",
+            "b": "20 pontos",
+            "c": "30 pontos",
+            "d": "40 pontos",
+            "e": "50 pontos"
+        },
+        "resposta_correta": "d",
+        "explicacao": "Conforme Art. 261 do CTB, o limite é de 40 pontos em 12 meses, desde que não haja infração gravíssima.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q026",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual é a velocidade máxima permitida para automóveis em rodovias de pista dupla?",
+        "alternativas": {
+            "a": "80 km/h",
+            "b": "90 km/h",
+            "c": "100 km/h",
+            "d": "110 km/h",
+            "e": "120 km/h"
+        },
+        "resposta_correta": "d",
+        "explicacao": "De acordo com o Art. 61, §1º do CTB, em rodovias de pista dupla, a velocidade máxima é de 110 km/h para automóveis.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q027",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual é a penalidade para quem avança o sinal vermelho do semáforo?",
+        "alternativas": {
+            "a": "Multa leve",
+            "b": "Multa média",
+            "c": "Multa grave",
+            "d": "Multa gravíssima",
+            "e": "Apenas advertência"
+        },
+        "resposta_correta": "d",
+        "explicacao": "Segundo o Art. 208 do CTB, avançar o sinal vermelho é infração gravíssima.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q028",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual é o prazo para solicitar a renovação da CNH?",
+        "alternativas": {
+            "a": "1 m��s antes do vencimento",
+            "b": "2 meses antes do vencimento",
+            "c": "3 meses antes do vencimento",
+            "d": "6 meses antes do vencimento",
+            "e": "Até o dia do vencimento"
+        },
+        "resposta_correta": "a",
+        "explicacao": "De acordo com o Art. 150 do CTB, a renovação pode ser realizada um mês antes do vencimento.",
+        "dificuldade": "facil"
+    },
+    {
+        "id": "Q029",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "O que significa a placa A-32b?",
+        "alternativas": {
+            "a": "Passagem sinalizada de pedestres",
+            "b": "Trânsito de pedestres",
+            "c": "Passagem sinalizada de escolares",
+            "d": "Crianças",
+            "e": "Área escolar"
+        },
+        "resposta_correta": "c",
+        "explicacao": "A placa A-32b (Passagem sinalizada de escolares) adverte sobre a existência de local de travessia de escolares.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q030",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual é a ordem de prevalência dos sinais de trânsito?",
+        "alternativas": {
+            "a": "Sinais luminosos, gestos do agente, sinais verticais",
+            "b": "Gestos do agente, sinais luminosos, sinais verticais",
+            "c": "Sinais verticais, sinais luminosos, gestos do agente",
+            "d": "Sinais luminosos, sinais verticais, gestos do agente",
+            "e": "Gestos do agente, sinais verticais, sinais luminosos"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Conforme Art. 89 do CTB, a ordem é: 1º gestos do agente, 2º sinais luminosos, 3º sinais verticais e horizontais.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q031",
+        "tema": "Direção Defensiva",
+        "pergunta": "Em qual situação é permitido usar o farol alto?",
+        "alternativas": {
+            "a": "Em vias não iluminadas, sem veículos próximos",
+            "b": "Em qualquer rodovia",
+            "c": "Para alertar outros motoristas",
+            "d": "Em vias urbanas à noite",
+            "e": "Em túneis durante o dia"
+        },
+        "resposta_correta": "a",
+        "explicacao": "De acordo com o Art. 40 do CTB, o farol alto deve ser utilizado em vias não iluminadas, exceto ao cruzar com outros veículos ou ao segui-los.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q032",
+        "tema": "Direção Defensiva",
+        "pergunta": "Qual é a distância mínima de segurança lateral para ultrapassar motocicletas?",
+        "alternativas": {
+            "a": "0,5 metro",
+            "b": "1,0 metro",
+            "c": "1,5 metro",
+            "d": "2,0 metros",
+            "e": "2,5 metros"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Segundo o Art. 201 do CTB, ao ultrapassar motocicletas, deve-se guardar distância lateral de segurança mínima de 1,50 metro.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q033",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "O que significa a placa R-24b?",
+        "alternativas": {
+            "a": "Sentido único",
+            "b": "Passagem obrigatória",
+            "c": "Sentido circular obrigatório",
+            "d": "Vire à direita",
+            "e": "Siga em frente ou à direita"
+        },
+        "resposta_correta": "b",
+        "explicacao": "A placa R-24b indica passagem obrigatória, determinando a obrigatoriedade de passar pelo lado indicado da sinalização.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q034",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual é a penalidade para quem dirige utilizando fones nos ouvidos?",
+        "alternativas": {
+            "a": "Advertência por escrito",
+            "b": "Multa leve",
+            "c": "Multa média",
+            "d": "Multa grave",
+            "e": "Multa gravíssima"
+        },
+        "resposta_correta": "c",
+        "explicacao": "De acordo com o Art. 252, VI do CTB, dirigir utilizando fones nos ouvidos é infração média.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q035",
+        "tema": "Direção Defensiva",
+        "pergunta": "Em que situação é permitido o uso do pisca-alerta com o veículo em movimento?",
+        "alternativas": {
+            "a": "Em situações de emergência",
+            "b": "Em dias de chuva",
+            "c": "Para agradecer",
+            "d": "Em ultrapassagens",
+            "e": "Nunca é permitido"
+        },
+        "resposta_correta": "a",
+        "explicacao": "Conforme Art. 40, §1º do CTB, em situações de emergência, é permitido o uso do pisca-alerta mesmo com o veículo em movimento.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q036",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual é a velocidade máxima permitida para ônibus em rodovias?",
+        "alternativas": {
+            "a": "80 km/h",
+            "b": "90 km/h",
+            "c": "100 km/h",
+            "d": "110 km/h",
+            "e": "120 km/h"
+        },
+        "resposta_correta": "b",
+        "explicacao": "De acordo com o Art. 61, §1º do CTB, para ônibus em rodovias, a velocidade máxima é de 90 km/h.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q037",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "O que significa a placa A-41?",
+        "alternativas": {
+            "a": "Cruz de Santo André",
+            "b": "Início de pista dupla",
+            "c": "Fim de pista dupla",
+            "d": "Cruzamento de vias",
+            "e": "Confluência à direita"
+        },
+        "resposta_correta": "a",
+        "explicacao": "A placa A-41 (Cruz de Santo André) adverte sobre a existência de cruzamento de via férrea em nível.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q038",
+        "tema": "Direção Defensiva",
+        "pergunta": "Qual é o procedimento correto ao se aproximar de um cruzamento não sinalizado?",
+        "alternativas": {
+            "a": "Manter a velocidade",
+            "b": "Aumentar a velocidade",
+            "c": "Reduzir a velocidade e redobrar a atenção",
+            "d": "Buzinar e passar",
+            "e": "Parar completamente"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Segundo o Art. 44 do CTB, ao se aproximar de qualquer tipo de cruzamento, o condutor deve demonstrar prudência, reduzindo a velocidade do veículo.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q039",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual é a classificação da infração por transportar criança sem cadeirinha?",
+        "alternativas": {
+            "a": "Leve",
+            "b": "Média",
+            "c": "Grave",
+            "d": "Gravíssima",
+            "e": "Não é infração"
+        },
+        "resposta_correta": "d",
+        "explicacao": "De acordo com o Art. 168 do CTB, transportar criança sem observar as normas de segurança é infração gravíssima.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q040",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Qual é o documento que comprova o registro e licenciamento do veículo?",
+        "alternativas": {
+            "a": "CNH",
+            "b": "CRV",
+            "c": "CRLV",
+            "d": "IPVA",
+            "e": "DPVAT"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Conforme Art. 130 do CTB, o CRLV (Certificado de Registro e Licenciamento de Veículo) é o documento que comprova o registro e licenciamento do veículo.",
+        "dificuldade": "facil"
+    },
+    {
+        "id": "Q041",
+        "tema": "Primeiros Socorros",
+        "pergunta": "João está dirigindo em uma rodovia quando percebe que seu veículo começa a apresentar problemas mecânicos. Ao parar no acostamento, ele deve, por ordem de prioridade:",
+        "alternativas": {
+            "a": "Ligar o pisca-alerta, sair do veículo e chamar o socorro",
+            "b": "Ligar o pisca-alerta, colocar o triângulo e depois chamar o socorro",
+            "c": "Ligar o pisca-alerta, sinalizar com triângulo a 30m, sair pelo lado direito e buscar local seguro",
+            "d": "Sair imediatamente do veículo e chamar o socorro mecânico",
+            "e": "Colocar o triângulo, desligar o veículo e aguardar dentro dele"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Conforme Art. 46 do CTB, em caso de imobilização, primeiro deve-se sinalizar com pisca-alerta, depois com triângulo à distância adequada, e por fim procurar local seguro, saindo pelo lado da calçada ou acostamento.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q042",
+        "tema": "Direção Defensiva",
+        "pergunta": "Maria está dirigindo sob chuva forte quando percebe que seu carro começa a aquaplanar. Nesta situação, a ação mais adequada é:",
+        "alternativas": {
+            "a": "Frear bruscamente e segurar firme o volante",
+            "b": "Acelerar para recuperar a aderência dos pneus",
+            "c": "Tirar o pé do acelerador, não frear e manter o volante reto",
+            "d": "Virar o volante na direção contrária à aquaplanagem",
+            "e": "Acionar o freio de mão gradualmente"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Em caso de aquaplanagem, o condutor deve tirar o pé do acelerador, não frear e manter o volante reto até recuperar o contato dos pneus com o solo. Frear ou fazer movimentos bruscos pode agravar a situação.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q043",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Pedro está transportando sua filha de 5 anos e precisa fazer uma parada rápida. Ao estacionar em uma vaga próxima a um estabelecimento comercial, ele nota uma placa de 'Estacionamento Rotativo - 2 horas'. Nesta situação:",
+        "alternativas": {
+            "a": "Pode parar rapidamente sem pagar, desde que fique menos de 5 minutos",
+            "b": "Deve pagar o estacionamento e pode deixar a criança no carro se for rápido",
+            "c": "Deve pagar o estacionamento, desligar o carro, retirar a criança e levá-la consigo",
+            "d": "Pode deixar o carro ligado com a criança e o ar condicionado",
+            "e": "Deve procurar outra vaga, mesmo que mais distante, se não puder levar a criança"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Conforme Art. 168 do CTB e Art. 249 do Código Penal, é proibido deixar criança sozinha no veículo, mesmo que por curto período. Além disso, deve-se respeitar as regras de estacionamento rotativo.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q044",
+        "tema": "Direção Defensiva",
+        "pergunta": "Durante uma viagem noturna em rodovia, Carlos se depara com um veículo em sentido contrário com farol alto ligado. A conduta mais segura é:",
+        "alternativas": {
+            "a": "Acender também o farol alto para alertar o outro condutor",
+            "b": "Desviar o olhar para a direita, usando a faixa branca como referência",
+            "c": "Piscar rapidamente os faróis para avisar o outro condutor",
+            "d": "Reduzir a velocidade e parar no acostamento até o veículo passar",
+            "e": "Mudar para a faixa da esquerda para evitar o ofuscamento"
+        },
+        "resposta_correta": "b",
+        "explicacao": "A conduta mais segura é desviar o olhar para a direita, usando a faixa branca como referência. Conforme Art. 40 do CTB, é proibido usar farol alto ao cruzar com outro veículo, e piscar faróis pode causar ofuscamento.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q045",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Ana está dirigindo quando se depara com uma blitz policial. Ao ser parada, o policial solicita o documento do veículo digital (CRLV-e). Neste momento, ela percebe que seu celular está sem bateria. Nesta situação:",
+        "alternativas": {
+            "a": "Será multada por não portar o documento",
+            "b": "Poderá apresentar o documento em até 24 horas na delegacia",
+            "c": "O veículo será retido até a apresentação do documento",
+            "d": "Será liberada se apresentar outro documento com foto",
+            "e": "Poderá seguir viagem após assinar um termo de compromisso"
+        },
+        "resposta_correta": "c",
+        "explicacao": "De acordo com o Art. 133 do CTB, é obrigatório portar o documento do veículo (físico ou digital). Na impossibilidade de comprovar a regularização, o veículo poderá ser retido até a apresentação do documento.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q046",
+        "tema": "Direção Defensiva",
+        "pergunta": "Lucas está dirigindo em uma via urbana quando se depara com um ciclista à sua frente. Ao mesmo tempo, percebe que há um ônibus tentando ultrapassá-lo pela esquerda. Nesta situação, a conduta mais segura é:",
+        "alternativas": {
+            "a": "Acelerar para passar o ciclista antes do ônibus",
+            "b": "Manter a velocidade e buzinar para o ciclista",
+            "c": "Reduzir a velocidade, manter distância do ciclista e deixar o ônibus ultrapassar",
+            "d": "Frear bruscamente para evitar acidentes",
+            "e": "Desviar para a direita usando o acostamento"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Conforme Arts. 29, 38 e 201 do CTB, deve-se respeitar a distância lateral de 1,5m do ciclista e dar preferência ao ônibus que está realizando a ultrapassagem, garantindo a segurança de todos.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q047",
+        "tema": "Direção Defensiva",
+        "pergunta": "Durante uma tempestade, Mariana percebe que os limpadores de para-brisa não estão sendo eficientes para manter a visibilidade. O trânsito está intenso e ela está a 2 km do próximo posto de combustível. A decisão mais adequada é:",
+        "alternativas": {
+            "a": "Continuar dirigindo devagar até o posto",
+            "b": "Ligar o pisca-alerta e seguir com cuidado",
+            "c": "Parar no acostamento, ligar o pisca-alerta e aguardar a chuva diminuir",
+            "d": "Abrir os vidros para melhorar a visibilidade",
+            "e": "Seguir o veículo da frente bem de perto"
+        },
+        "resposta_correta": "c",
+        "explicacao": "De acordo com o Art. 43 do CTB, o condutor deve guardar distância de segurança e, quando as condições de visibilidade não forem seguras, deve parar o veículo no acostamento até que possa prosseguir com segurança.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q048",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Paulo está transportando sua filha de 6 anos quando percebe que está atrasado para a escola. No caminho, encontra um radar de velocidade indicando 60 km/h e vê que outros carros estão ultrapassando a velocidade sem serem multados. Nesta situação, ele deve:",
+        "alternativas": {
+            "a": "Aumentar a velocidade já que outros carros não estão sendo multados",
+            "b": "Manter a velocidade regulamentada, independente do atraso ou comportamento dos outros",
+            "c": "Ultrapassar o limite apenas no trecho do radar",
+            "d": "Buscar uma rota alternativa mais rápida",
+            "e": "Ligar para a escola avisando do atraso e aumentar a velocidade"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Segundo o Art. 61 do CTB, o condutor deve respeitar os limites de velocidade, independentemente das circunstâncias. Além disso, o Art. 168 estabelece responsabilidade especial ao transportar crianças.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q049",
+        "tema": "Direção Defensiva",
+        "pergunta": "Em um dia chuvoso, Regina está dirigindo quando percebe que o carro �� sua frente freia bruscamente devido a um alagamento. Considerando que ela mantinha distância segura, a melhor sequência de ações é:",
+        "alternativas": {
+            "a": "Frear bruscamente e desviar para a direita",
+            "b": "Buzinar, frear e desviar para a esquerda",
+            "c": "Pisar levemente no freio, verificar retrovisores e parar com segurança",
+            "d": "Acelerar e desviar rapidamente",
+            "e": "Acionar o pisca-alerta e frear bruscamente"
+        },
+        "resposta_correta": "c",
+        "explicacao": "De acordo com os Arts. 44 e 45 do CTB, o condutor deve manter distância segura e, em situações de emergência, realizar frenagem gradual após verificar a segurança da manobra através dos retrovisores.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q050",
+        "tema": "Direção Defensiva",
+        "pergunta": "Fernando está dirigindo à noite quando percebe que seu farol baixo queimou. Ele está a 5 km de uma oficina e ainda há alguma iluminação pública. Nesta situação, ele deve:",
+        "alternativas": {
+            "a": "Seguir com o farol alto até a oficina",
+            "b": "Continuar apenas com as lanternas ligadas",
+            "c": "Estacionar o veículo em local seguro e providenciar socorro",
+            "d": "Seguir devagar usando o pisca-alerta",
+            "e": "Aproveitar a iluminação pública e seguir sem faróis"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Conforme Art. 92 do CTB, o veículo só poderá circular nas vias públicas quando atender aos requisitos e condições de segurança. Trafegar sem farol caracteriza infração grave, conforme Art. 230.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q051",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Roberto  abordado em uma blitz e o policial constata que ele está dirigindo com a CNH vencida há 45 dias. Além da multa, qual será a medida administrativa aplicada?",
+        "alternativas": {
+            "a": "Apenas advertência por escrito",
+            "b": "Recolhimento da CNH e retenção do veículo",
+            "c": "Apreensão do veículo e suspensão do direito de dirigir",
+            "d": "Somente recolhimento da CNH",
+            "e": "Remoção do veículo ao pátio"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Conforme Art. 162, V do CTB, dirigir com CNH vencida há mais de 30 dias constitui infração gravíssima, com multa e medida administrativa de recolhimento da CNH e retenção do veículo até apresentação de condutor habilitado.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q052",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Carla estaciona seu veículo em local proibido e se ausenta. Quando retorna, encontra um agente iniciando a remoção do veículo. Nesta situação:",
+        "alternativas": {
+            "a": "O agente deve interromper a remoção se ela se propuser a pagar a multa no local",
+            "b": "O veículo será removido mesmo com sua presença, pois o procedimento já foi iniciado",
+            "c": "Ela pode retirar o veículo após pagar as despesas de operação de remoção",
+            "d": "O agente deve liberar o veículo sem custos se ela se comprometer a não reincidir",
+            "e": "A remoção será cancelada se ela apresentar justificativa por escrito"
+        },
+        "resposta_correta": "c",
+        "explicacao": "De acordo com o Art. 271, §2º do CTB, a restituição do veículo só ocorrerá mediante pagamento das multas, taxas e despesas com remoção e estada, além de outros encargos previstos na legislação específica.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q053",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Durante uma fiscalização, o agente constata que Pedro alterou as características do veículo (rebaixamento) sem autorização. Além da multa, quais medidas administrativas serão aplicadas?",
+        "alternativas": {
+            "a": "Apenas retenção do veículo",
+            "b": "Remoção do veículo e apreensão da CNH",
+            "c": "Retenção do veículo para regularização e recolhimento do CRLV",
+            "d": "Apreensão do veículo e cassação da CNH",
+            "e": "Somente recolhimento do CRLV"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Segundo Art. 230, VII do CTB, circular com o veículo com características alteradas é infração grave, sujeita a multa, retenção do veículo para regularização e recolhimento do CRLV.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q054",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Ana é flagrada dirigindo e utilizando o celular. Após ser multada, ela comete a mesma infração 3 meses depois. Neste caso de reincidência:",
+        "alternativas": {
+            "a": "A multa terá o mesmo valor da primeira infração",
+            "b": "O valor da multa será dobrado",
+            "c": "Receberá apenas advertência por escrito",
+            "d": "Terá a CNH suspensa imediatamente",
+            "e": "Deverá fazer curso de reciclagem"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Conforme Art. 259, §1º do CTB, em caso de reincidência da mesma infração dentro do prazo de 12 meses, o valor da multa será dobrado.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q055",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "João é parado em uma blitz e o teste do etilômetro acusa 0,05 miligramas de álcool por litro de ar expelido. Além da multa, quais medidas serão aplicadas?",
+        "alternativas": {
+            "a": "Apenas retenção da CNH",
+            "b": "Recolhimento da CNH e advertência",
+            "c": "Recolhimento da CNH e retenção do veículo",
+            "d": "Suspensão do direito de dirigir por 12 meses e recolhimento da CNH",
+            "e": "Cassação da CNH"
+        },
+        "resposta_correta": "d",
+        "explicacao": "De acordo com o Art. 165 do CTB, qualquer concentração de álcool implica em infração gravíssima, multa (10x), suspensão do direito de dirigir por 12 meses, recolhimento da CNH e retenção do veículo.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q056",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Marcos recebeu uma notificação informando que atingiu 39 pontos em sua CNH nos últimos 12 meses, sendo uma infração gravíssima recente. Nesta situação:",
+        "alternativas": {
+            "a": "Poderá continuar dirigindo pois não atingiu 40 pontos",
+            "b": "Terá sua CNH suspensa devido à infração gravíssima",
+            "c": "Receberá apenas uma advertência por escrito",
+            "d": "Poderá optar por fazer curso preventivo",
+            "e": "Terá que recolher a CNH por 30 dias"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Conforme Art. 261 do CTB, mesmo não tendo atingido 40 pontos, a existência de uma infração gravíssima já é motivo para instauração de processo de suspensão do direito de dirigir.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q057",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Lucia é condutora profissional (EAR) e acumulou 35 pontos em sua CNH. Ao consultar seu prontuário, ela descobre que:",
+        "alternativas": {
+            "a": "Terá sua CNH suspensa imediatamente",
+            "b": "Poderá continuar dirigindo até atingir 40 pontos",
+            "c": "Pode acumular até 40 pontos se não houver infrações gravíssimas",
+            "d": "Por ser profissional, tem limite de 50 pontos",
+            "e": "Deve fazer curso de reciclagem preventivo"
+        },
+        "resposta_correta": "d",
+        "explicacao": "De acordo com o Art. 261, §3º do CTB, o condutor que exerce atividade remunerada (EAR) tem limite de 50 pontos, independentemente da natureza das infrações.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q058",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Pedro cometeu uma infração gravíssima e duas graves em um período de 3 meses. Ao receber as notificações, ele descobre que:",
+        "alternativas": {
+            "a": "Somará 17 pontos em sua CNH",
+            "b": "Somará 14 pontos em sua CNH",
+            "c": "Somará 21 pontos em sua CNH",
+            "d": "Terá suspensão imediata da CNH",
+            "e": "Poderá converter as multas em advertência"
+        },
+        "resposta_correta": "a",
+        "explicacao": "Segundo Art. 259 do CTB, infrações gravíssimas computam 7 pontos e graves 5 pontos cada, totalizando 17 pontos (7 + 5 + 5).",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q059",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Ana recebeu notificação de que atingiu o limite de pontos para suspensão da CNH. Ela é motorista profissional e não tem infrações gravíssimas. Neste caso:",
+        "alternativas": {
+            "a": "Terá direito a um recurso administrativo em duas instâncias",
+            "b": "Deverá entregar a CNH imediatamente",
+            "c": "Poderá continuar dirigindo até o julgamento final",
+            "d": "Terá sua CNH cassada automaticamente",
+            "e": "Precisará fazer novo exame prático"
+        },
+        "resposta_correta": "a",
+        "explicacao": "Conforme Art. 265 do CTB, o infrator tem direito a recurso em duas instâncias administrativas antes da efetivação da penalidade de suspensão.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q060",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "João é notificado que sua CNH será suspensa por pontuação. Durante o processo administrativo, ele:",
+        "alternativas": {
+            "a": "Deve entregar a CNH imediatamente após a notificação",
+            "b": "Pode dirigir até a decisão final do processo",
+            "c": "Precisa fazer curso de reciclagem preventivo",
+            "d": "Deve recolher a CNH em 48 horas",
+            "e": "Terá que usar permissão temporária"
+        },
+        "resposta_correta": "b",
+        "explicacao": "De acordo com o Art. 261 e 265 do CTB, o condutor pode continuar dirigindo até a decisão final do processo administrativo, respeitando o princípio da ampla defesa.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q061",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Em uma via com três faixas de circulação no mesmo sentido, qual é a faixa mais adequada para o tráfego de caminhões e veículos em marcha lenta?",
+        "alternativas": {
+            "a": "Faixa da esquerda",
+            "b": "Faixa do meio",
+            "c": "Faixa da direita",
+            "d": "Qualquer faixa",
+            "e": "Alternadamente em todas as faixas"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Conforme Art. 29, IX do CTB, a faixa da direita é destinada a veículos lentos e de maior porte, quando não houver faixa especial.",
+        "dificuldade": "facil"
+    },
+    {
+        "id": "Q062",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Em uma rotatória sem sinalização específica, qual veículo tem preferência?",
+        "alternativas": {
+            "a": "O que vier pela direita",
+            "b": "O que já estiver circulando na rotatória",
+            "c": "O que vier pela esquerda",
+            "d": "O veículo maior",
+            "e": "O veículo mais rápido"
+        },
+        "resposta_correta": "b",
+        "explicacao": "De acordo com o Art. 29, III do CTB, em rotatórias, terá preferência de passagem o veículo que já estiver circulando por ela.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q063",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Em uma via de mão dupla com três faixas, sendo a do meio reversível, você percebe que não há sinalização indicando o sentido da faixa central. Neste caso:",
+        "alternativas": {
+            "a": "Pode usar a faixa central livremente",
+            "b": "Deve evitar usar a faixa central",
+            "c": "Pode usar apenas para ultrapassagem",
+            "d": "Deve consultar outros motoristas",
+            "e": "Pode usar em horários alternados"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Segundo Art. 30 do CTB, quando não houver sinalização específica, a faixa reversível deve ser evitada por questões de segurança.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q064",
+        "tema": "Direção Defensiva",
+        "pergunta": "Ao se aproximar de um cruzamento com semáforo verde, você observa uma ambulância com sirene ligada vindo pela via transversal. Nesta situação:",
+        "alternativas": {
+            "a": "Deve manter seu direito de passagem pois o semáforo está verde",
+            "b": "Deve parar e dar passagem à ambulância",
+            "c": "Deve acelerar para passar antes da ambulância",
+            "d": "Deve buzinar para alertar a ambulância",
+            "e": "Deve seguir normalmente pois a ambulância deve esperar"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Conforme Art. 29, VII do CTB, os veículos de emergência com sirene ligada têm prioridade de passagem, devendo os demais veículos deixar livre a passagem.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q065",
+        "tema": "Legislação de Trânsito",
+        "pergunta": "Em uma via com ciclo faixa, você observa um ciclista trafegando fora dela. Nesta situação:",
+        "alternativas": {
+            "a": "O ciclista está errado e deve ser advertido",
+            "b": "O ciclista pode escolher transitar na via ou na ciclofaixa",
+            "c": "Deve-se buzinar para que ele entre na ciclofaixa",
+            "d": "Deve-se chamar a autoridade de trânsito",
+            "e": "O ciclista deve ser multado"
+        },
+        "resposta_correta": "b",
+        "explicacao": "De acordo com o Art. 58 do CTB, nas vias urbanas e rurais com ciclo faixa, a autoridade de tr����������nsito permitirá a livre circulação de bicicletas nos locais onde não houver risco.",
+        "dificuldade": "facil"
+    },
+    {
+        "id": "Q066",
+        "tema": "Meio Ambiente",
+        "pergunta": "Em relação à emissão de gases poluentes, qual atitude do condutor contribui para reduzir o impacto ambiental?",
+        "alternativas": {
+            "a": "Manter o motor em alta rotação",
+            "b": "Realizar manutenção preventiva do veículo",
+            "c": "Usar combustível mais barato",
+            "d": "Remover o catalisador",
+            "e": "Acelerar com o veículo parado"
+        },
+        "resposta_correta": "b",
+        "explicacao": "A manutenção preventiva, especialmente do sistema de injeção e escapamento, ajuda a reduzir a emissão de poluentes, conforme diretrizes do CONAMA.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q067",
+        "tema": "Mecânica",
+        "pergunta": "Durante uma viagem, você percebe que a luz do óleo acende no painel. Qual a ação imediata mais adequada?",
+        "alternativas": {
+            "a": "Continuar até o próximo posto",
+            "b": "Aumentar a velocidade para chegar logo",
+            "c": "Parar imediatamente em local seguro e desligar o motor",
+            "d": "Reduzir a velocidade e seguir viagem",
+            "e": "Ligar o pisca-alerta e continuar"
+        },
+        "resposta_correta": "c",
+        "explicacao": "A luz do óleo indica problema grave no sistema de lubrificação. Continuar dirigindo pode causar danos irreversíveis ao motor.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q068",
+        "tema": "Meio Ambiente",
+        "pergunta": "Em relação à poluição sonora, qual das seguintes ações é correta?",
+        "alternativas": {
+            "a": "Instalar equipamento de som com volume alto",
+            "b": "Modificar o escapamento para ficar mais potente",
+            "c": "Regular o motor conforme especificações do fabricante",
+            "d": "Remover o silenciador do escapamento",
+            "e": "Usar buzina constantemente no trânsito"
+        },
+        "resposta_correta": "c",
+        "explicacao": "De acordo com a Resolução CONAMA 418/09, a regulagem correta do motor conforme especificações do fabricante ajuda a reduzir a poluição sonora.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q069",
+        "tema": "Meio Ambiente",
+        "pergunta": "Qual prática contribui para a redução do consumo de combustível e, consequentemente, da emissão de poluentes?",
+        "alternativas": {
+            "a": "Manter os pneus sempre com calibragem baixa",
+            "b": "Acelerar rapidamente nos semáforos",
+            "c": "Transportar excesso de peso no veículo",
+            "d": "Realizar as trocas de marcha no momento adequado",
+            "e": "Manter o motor em alta rotação"
+        },
+        "resposta_correta": "d",
+        "explicacao": "A troca de marchas no momento adequado, mantendo o motor em rotações econômicas, reduz o consumo de combustível e a emissão de poluentes.",
+        "dificuldade": "facil"
+    },
+    {
+        "id": "Q070",
+        "tema": "Meio Ambiente",
+        "pergunta": "Sobre o descarte de resíduos automotivos, qual é a forma correta de descartar o óleo usado do motor?",
+        "alternativas": {
+            "a": "Jogar no solo para evaporar",
+            "b": "Descartar no lixo comum",
+            "c": "Entregar em posto de coleta autorizado",
+            "d": "Derramar no esgoto",
+            "e": "Queimar ao ar livre"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Conforme Resolução CONAMA 362/05, o óleo lubrificante usado deve ser destinado à reciclagem através de pontos de coleta autorizados.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q071",
+        "tema": "Meio Ambiente",
+        "pergunta": "Em relação aos veículos elétricos e híbridos, qual afirmação é correta?",
+        "alternativas": {
+            "a": "Não precisam de manutenção preventiva",
+            "b": "São totalmente livres de impacto ambiental",
+            "c": "Contribuem para redução de emissões em centros urbanos",
+            "d": "São mais poluentes que veículos a gasolina",
+            "e": "Não podem circular em dias de rodízio"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Veículos elétricos e híbridos contribuem significativamente para a redução de emissões de poluentes em centros urbanos, embora ainda gerem impacto ambiental em sua fabricação.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q072",
+        "tema": "Primeiros Socorros",
+        "pergunta": "Em um acidente com vítima inconsciente, qual a primeira avaliação que deve ser feita?",
+        "alternativas": {
+            "a": "Verificar se há documentos de identificação",
+            "b": "Verificar se há sinais vitais (respiração e pulso)",
+            "c": "Tentar acordar a vítima com estímulos",
+            "d": "Oferecer água para a vítima",
+            "e": "Remover a vítima do local"
+        },
+        "resposta_correta": "b",
+        "explicacao": "A verificação dos sinais vitais é prioritária pois indica se há necessidade de manobras de ressuscitação imediatas.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q073",
+        "tema": "Mecânica",
+        "pergunta": "Durante uma viagem, você percebe que o carro está puxando para um lado ao frear. Isso pode indicar:",
+        "alternativas": {
+            "a": "Problema no alinhamento apenas",
+            "b": "Pneus com calibragem diferente",
+            "c": "Sistema de freios desregulado ou com problema",
+            "d": "Problema na direção hidráulica",
+            "e": "Amortecedores gastos"
+        },
+        "resposta_correta": "c",
+        "explicacao": "O carro puxar para um lado durante a frenagem geralmente indica problema no sistema de freios, como pastilhas gastas de forma desigual ou problema no sistema hidráulico.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q074",
+        "tema": "Primeiros Socorros",
+        "pergunta": "Em um acidente com vítima apresentando hemorragia externa, qual a sequência correta de ações?",
+        "alternativas": {
+            "a": "Aplicar torniquete imediatamente",
+            "b": "Fazer compressão direta no local com pano limpo",
+            "c": "Lavar o ferimento com água",
+            "d": "Remover objetos encravados",
+            "e": "Aplicar pomada antibiótica"
+        },
+        "resposta_correta": "b",
+        "explicacao": "A compressão direta com pano limpo é o primeiro e mais eficaz método para controle de hemorragias externas. O torniquete só deve ser usado em último caso.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q075",
+        "tema": "Mecânica",
+        "pergunta": "O veículo apresenta dificuldade para ligar pela manhã, mas funciona normalmente durante o dia. Isso pode indicar:",
+        "alternativas": {
+            "a": "Problema no radiador",
+            "b": "Bateria com pouca carga",
+            "c": "Filtro de ar sujo",
+            "d": "Problema na embreagem",
+            "e": "Pneus desalinhados"
+        },
+        "resposta_correta": "b",
+        "explicacao": "A dificuldade para dar partida pela manhã, quando o carro ficou parado por muito tempo, geralmente indica bateria fraca ou com problemas de carga.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q076",
+        "tema": "Primeiros Socorros",
+        "pergunta": "Em caso de acidente com vítima em convulsão, qual procedimento é INCORRETO?",
+        "alternativas": {
+            "a": "Proteger a cabeça da vítima",
+            "b": "Tentar conter os movimentos da vítima",
+            "c": "Afastar objetos próximos",
+            "d": "Manter as vias aéreas livres",
+            "e": "Colocar a vítima em posição lateral"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Nunca se deve tentar conter os movimentos de uma pessoa em convulsão, pois isso pode causar lesões. O correto é proteger a cabeça e afastar objetos.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q077",
+        "tema": "Mecânica",
+        "pergunta": "Ao perceber que o motor está superaquecendo, qual a primeira ação a ser tomada?",
+        "alternativas": {
+            "a": "Desligar imediatamente o motor",
+            "b": "Abrir o capô imediatamente",
+            "c": "Ligar o aquecedor interno no máximo",
+            "d": "Adicionar água fria no radiador",
+            "e": "Acelerar para ventilar o motor"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Ligar o aquecedor interno no máximo ajuda a dissipar o calor do motor. Adicionar água fria com o motor quente pode causar danos graves.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q078",
+        "tema": "Primeiros Socorros",
+        "pergunta": "Em um acidente com vítima de parada cardiorrespiratória, qual a frequência correta de compressões torácicas?",
+        "alternativas": {
+            "a": "60 compressões por minuto",
+            "b": "80 compressões por minuto",
+            "c": "100 compressões por minuto",
+            "d": "120 compressões por minuto",
+            "e": "140 compressões por minuto"
+        },
+        "resposta_correta": "c",
+        "explicacao": "De acordo com as diretrizes de ressuscitação cardiopulmonar, deve-se realizar cerca de 100 compressões por minuto, com profundidade de 5 a 6 centímetros.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q079",
+        "tema": "Mecânica",
+        "pergunta": "Em um veículo com direção hidráulica, ao girar o volante você percebe um ruído agudo. Isso pode indicar:",
+        "alternativas": {
+            "a": "Problema nos pneus",
+            "b": "Baixo nível do fluido da direção hidráulica",
+            "c": "Problema na bateria",
+            "d": "Desgaste dos amortecedores",
+            "e": "Problema no alternador"
+        },
+        "resposta_correta": "b",
+        "explicacao": "O ruído agudo ao girar o volante geralmente indica nível baixo do fluido da direção hidráulica, podendo causar danos à bomba se não corrigido.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q080",
+        "tema": "Primeiros Socorros",
+        "pergunta": "Em um acidente com vítima apresentando queimaduras, qual o primeiro procedimento a ser realizado?",
+        "alternativas": {
+            "a": "Aplicar pomada para queimaduras",
+            "b": "Remover tecidos grudados na pele",
+            "c": "Resfriar a área queimada com água em temperatura ambiente",
+            "d": "Cobrir com algodão",
+            "e": "Aplicar gelo diretamente"
+        },
+        "resposta_correta": "c",
+        "explicacao": "O resfriamento com água em temperatura ambiente ajuda a interromper o processo de queimadura e alivia a dor, sem causar choque térmico.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q081",
+        "tema": "Mecânica",
+        "pergunta": "Ao frear, você percebe que o pedal de freio está 'esponjoso' (mais macio que o normal). Isso pode indicar:",
+        "alternativas": {
+            "a": "Desgaste normal das pastilhas",
+            "b": "Ar no sistema de freios",
+            "c": "Problema no cabo do freio de mão",
+            "d": "Pneus desalinhados",
+            "e": "Problema na embreagem"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Pedal de freio 'esponjoso' geralmente indica presença de ar no sistema hidráulico de freios, necessitando sangria do sistema para correção.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q082",
+        "tema": "Primeiros Socorros",
+        "pergunta": "Em caso de acidente com vítima apresentando suspeita de fratura na coluna, qual conduta é correta?",
+        "alternativas": {
+            "a": "Movimentar a vítima para uma posição mais confortável",
+            "b": "Imobilizar o pescoço e não movimentar a vítima",
+            "c": "Tentar realinhar a coluna",
+            "d": "Sentar a vítima para avaliar melhor",
+            "e": "Aplicar compressa quente no local"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Em suspeita de lesão na coluna, a vítima não deve ser movimentada, e o pescoço deve ser imobilizado para evitar agravamento das lesões.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q083",
+        "tema": "Mecânica",
+        "pergunta": "Durante a condução, você percebe fumaça azulada saindo do escapamento. Isso geralmente indica:",
+        "alternativas": {
+            "a": "Motor frio",
+            "b": "Consumo normal de combustível",
+            "c": "Queima de óleo no motor",
+            "d": "Problema no filtro de ar",
+            "e": "Combustível de má qualidade"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Fumaça azulada indica queima de óleo no motor, podendo ser causada por desgaste de anéis, guias de válvulas ou outros componentes internos.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q084",
+        "tema": "Primeiros Socorros",
+        "pergunta": "Em um acidente com vítima apresentando sangramento nasal, qual a posição correta da cabeça?",
+        "alternativas": {
+            "a": "Totalmente para trás",
+            "b": "Totalmente para frente",
+            "c": "Levemente para frente",
+            "d": "Deitada de lado",
+            "e": "Não importa a posição"
+        },
+        "resposta_correta": "c",
+        "explicacao": "A cabeça deve ficar levemente inclinada para frente para evitar que o sangue escorra para a garganta, o que poderia causar engasgamento.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q085",
+        "tema": "Mecânica",
+        "pergunta": "Se você percebe que o carro está consumindo mais combustível que o normal, qual pode ser a causa?",
+        "alternativas": {
+            "a": "Bateria fraca",
+            "b": "Filtro de ar sujo",
+            "c": "Problema na embreagem",
+            "d": "Amortecedores gastos",
+            "e": "Direção desalinhada"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Um filtro de ar sujo dificulta a passagem do ar para o motor, causando uma mistura ar-combustível inadequada e aumentando o consumo.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q086",
+        "tema": "Primeiros Socorros",
+        "pergunta": "Em caso de acidente com vítima em choque (pele fria e pálida, suor abundante), qual procedimento é correto?",
+        "alternativas": {
+            "a": "Oferecer água ou alimentos",
+            "b": "Manter a vítima aquecida e com pernas elevadas",
+            "c": "Fazer a vítima caminhar",
+            "d": "Aplicar compressas geladas",
+            "e": "Deixar a vítima sentada"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Em caso de choque, deve-se manter a vítima aquecida e com as pernas elevadas para melhorar o retorno venoso ao coração.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q087",
+        "tema": "Mecânica",
+        "pergunta": "Ao dar partida no veículo, você ouve um chiado agudo. Isso pode indicar:",
+        "alternativas": {
+            "a": "Bateria descarregada",
+            "b": "Correia do alternador solta ou gasta",
+            "c": "Problema no radiador",
+            "d": "Pneus desalinhados",
+            "e": "Freios desregulados"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Um chiado agudo na partida geralmente indica problema na correia do alternador, que pode estar solta, gasta ou desalinhada.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q088",
+        "tema": "Primeiros Socorros",
+        "pergunta": "Em um acidente com vítima apresentando objeto encravado, qual a conduta correta?",
+        "alternativas": {
+            "a": "Remover o objeto imediatamente",
+            "b": "Empurrar o objeto mais para dentro",
+            "c": "Manter o objeto no lugar e estabilizá-lo",
+            "d": "Girar o objeto para facilitar remoção",
+            "e": "Puxar o objeto lentamente"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Objetos encravados não devem ser removidos pois podem estar tamponando hemorragias. O correto é estabilizá-los até o atendimento médico.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q089",
+        "tema": "Direção Defensiva",
+        "pergunta": "Em uma situação de neblina intensa em rodovia, qual a sequência correta de ações?",
+        "alternativas": {
+            "a": "Aumentar a velocidade para sair logo da neblina",
+            "b": "Ligar farol alto e pisca-alerta",
+            "c": "Ligar farol baixo, reduzir velocidade e aumentar distância",
+            "d": "Parar imediatamente no acostamento",
+            "e": "Seguir o veículo da frente bem próximo"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Em neblina, deve-se usar farol baixo (o alto reflete e piora a visibilidade), reduzir a velocidade e aumentar a distância do veículo à frente.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q090",
+        "tema": "Meio Ambiente",
+        "pergunta": "Em relação ao descarte de pneus usados, qual é a forma ambientalmente correta de destinação?",
+        "alternativas": {
+            "a": "Queimar para aproveitar a borracha",
+            "b": "Descartar em terrenos baldios",
+            "c": "Entregar em pontos de coleta autorizados",
+            "d": "Jogar em rios ou lagos",
+            "e": "Enterrar no quintal"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Conforme Resolução CONAMA 416/09, pneus usados devem ser entregues aos pontos de coleta para reciclagem ou reutilização adequada.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q091",
+        "tema": "Direção Defensiva",
+        "pergunta": "Durante uma ultrapassagem em rodovia, você percebe que não conseguirá completar a manobra com segurança. A ação correta é:",
+        "alternativas": {
+            "a": "Acelerar ao máximo para completar a ultrapassagem",
+            "b": "Buzinar para o veículo da frente reduzir",
+            "c": "Reduzir a velocidade e retornar à faixa original",
+            "d": "Forçar o outro veículo a reduzir",
+            "e": "Desviar para o acostamento"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Se a ultrapassagem não puder ser completada com segurança, deve-se reduzir a velocidade e retornar à faixa original, aguardando momento mais adequado.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q092",
+        "tema": "Meio Ambiente",
+        "pergunta": "Qual prática contribui para a redução do impacto ambiental em áreas urbanas?",
+        "alternativas": {
+            "a": "Lavar o carro na rua",
+            "b": "Realizar manutenção preventiva do catalisador",
+            "c": "Remover o filtro de ar",
+            "d": "Modificar o sistema de escapamento",
+            "e": "Usar combustível adulterado"
+        },
+        "resposta_correta": "b",
+        "explicacao": "A manutenção preventiva do catalisador garante sua eficiência na redução de emissões de poluentes, conforme estabelecido pelo PROCONVE.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q093",
+        "tema": "Direção Defensiva",
+        "pergunta": "Em uma via com declive acentuado e pista molhada, qual a técnica mais segura de frenagem?",
+        "alternativas": {
+            "a": "Usar apenas o freio de mão",
+            "b": "Frear bruscamente quando necessário",
+            "c": "Usar o freio motor e frear suavemente",
+            "d": "Manter o veículo em ponto morto",
+            "e": "Acelerar nas curvas para manter o controle"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Em declives com pista molhada, deve-se usar o freio motor (reduzindo marchas) e frear suavemente para evitar derrapagens e manter o controle do veículo.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q094",
+        "tema": "Direção Defensiva",
+        "pergunta": "Em uma rodovia, você percebe que o veículo à sua frente está transportando carga que parece mal fixada. A atitude mais segura é:",
+        "alternativas": {
+            "a": "Ultrapassar rapidamente",
+            "b": "Manter distância segura e mudar de faixa quando possível",
+            "c": "Buzinar continuamente para alertar",
+            "d": "Seguir próximo para proteger outros veículos",
+            "e": "Tentar avisar o motorista gesticulando"
+        },
+        "resposta_correta": "b",
+        "explicacao": "A distância segura e a mudança de faixa quando possível são as melhores opções para evitar acidentes com cargas mal acondicionadas.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q095",
+        "tema": "Meio Ambiente",
+        "pergunta": "Em relação à lavagem de veículos, qual prática é mais adequada para a preservação do meio ambiente?",
+        "alternativas": {
+            "a": "Lavar na rua usando mangueira",
+            "b": "Usar produtos químicos fortes para melhor limpeza",
+            "c": "Utilizar estabelecimentos com sistema de reuso de água",
+            "d": "Lavar em rios ou córregos",
+            "e": "Usar água potável em abundância"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Estabelecimentos com sistema de reuso de água reduzem o consumo e tratam adequadamente os resíduos da lavagem, minimizando o impacto ambiental.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q096",
+        "tema": "Direção Defensiva",
+        "pergunta": "Durante uma viagem noturna, você percebe que está com sono. Qual a sequência mais segura de ações?",
+        "alternativas": {
+            "a": "Abrir as janelas e aumentar o som",
+            "b": "Tomar café e continuar dirigindo",
+            "c": "Parar em local seguro e descansar adequadamente",
+            "d": "Dirigir mais rápido para chegar logo",
+            "e": "Ligar o ar condicionado no máximo"
+        },
+        "resposta_correta": "c",
+        "explicacao": "O sono ao volante é extremamente perigoso. A única solução segura é parar em local adequado e descansar até estar em condições de seguir viagem.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q097",
+        "tema": "Meio Ambiente",
+        "pergunta": "Qual prática contribui para a redução da poluição em congestionamentos?",
+        "alternativas": {
+            "a": "Manter o motor em marcha lenta",
+            "b": "Desligar o motor em paradas longas",
+            "c": "Acelerar periodicamente",
+            "d": "Usar o ar condicionado no máximo",
+            "e": "Manter o carro engrenado"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Em congestionamentos com paradas longas, desligar o motor reduz a emissão de poluentes e o consumo de combustível.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q098",
+        "tema": "Direção Defensiva",
+        "pergunta": "Em uma via com obras e desvio, você observa que a sinalização é confusa. A atitude mais segura é:",
+        "alternativas": {
+            "a": "Seguir o fluxo dos outros veículos",
+            "b": "Reduzir a velocidade e redobrar a atenção",
+            "c": "Buzinar para alertar os outros motoristas",
+            "d": "Procurar um caminho alternativo",
+            "e": "Aumentar a velocidade para sair logo do local"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Em situações de sinalização confusa, a redução de velocidade e atenção redobrada são fundamentais para evitar acidentes e identificar o caminho correto.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q099",
+        "tema": "Direção Defensiva",
+        "pergunta": "Em uma rodovia, você percebe que um caminhão à sua frente está perdendo parte da carga. A conduta mais segura é:",
+        "alternativas": {
+            "a": "Ultrapassar imediatamente o caminhão",
+            "b": "Aumentar a distância e alertar outros motoristas com pisca-alerta",
+            "c": "Buzinar continuamente para o caminhoneiro",
+            "d": "Tentar desviar dos objetos mantendo a velocidade",
+            "e": "Parar no acostamento e chamar a polícia"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Aumentar a distância permite maior tempo de reação, e o uso do pisca-alerta ajuda a alertar outros condutores sobre a situação de risco.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q100",
+        "tema": "Mecânica",
+        "pergunta": "Durante uma viagem, você percebe que o carro está perdendo potência nas subidas e há fumaça preta no escapamento. Isso pode indicar:",
+        "alternativas": {
+            "a": "Problema na bateria",
+            "b": "Sistema de injeção desregulado",
+            "c": "Pneus descalibrados",
+            "d": "Problema na direção hidráulica",
+            "e": "Suspensão danificada"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Fumaça preta e perda de potência geralmente indicam problemas no sistema de injeção, resultando em mistura rica de combustível.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q101",
+        "tema": "Primeiros Socorros",
+        "pergunta": "Em um acidente, você encontra uma vítima consciente com suspeita de traumatismo craniano. Qual a conduta correta?",
+        "alternativas": {
+            "a": "Oferecer água para a vítima beber",
+            "b": "Manter a vítima acordada conversando",
+            "c": "Medicar a vítima para dor",
+            "d": "Movimentar a cabeça da vítima",
+            "e": "Fazer a vítima levantar-se"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Em casos de traumatismo craniano, é importante manter a vítima consciente e monitorar seu nível de consciência até a chegada do socorro.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q102",
+        "tema": "Meio Ambiente",
+        "pergunta": "Em relação à manutenção do ar condicionado veicular, qual prática é mais adequada ao meio ambiente?",
+        "alternativas": {
+            "a": "Liberar o gás na atmosfera",
+            "b": "Realizar manutenção apenas quando parar de funcionar",
+            "c": "Fazer manutenção preventiva com recolhimento adequado do gás",
+            "d": "Trocar o gás em qualquer oficina",
+            "e": "Nunca usar o ar condicionado"
+        },
+        "resposta_correta": "c",
+        "explicacao": "A manutenção preventiva com recolhimento adequado do gás refrigerante evita seu vazamento para a atmosfera, reduzindo danos à camada de ozônio.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q103",
+        "tema": "Direção Defensiva",
+        "pergunta": "Ao se aproximar de um túnel durante o dia, qual sequência de ações é mais segura?",
+        "alternativas": {
+            "a": "Acender o farol alto imediatamente",
+            "b": "Acelerar para passar rapidamente",
+            "c": "Acender o farol baixo, reduzir velocidade e aumentar distância",
+            "d": "Manter os faróis apagados",
+            "e": "Ligar apenas as lanternas"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Deve-se acender o farol baixo antes de entrar no túnel, reduzir a velocidade e aumentar a distância devido à mudança brusca de luminosidade.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q104",
+        "tema": "Direção Defensiva",
+        "pergunta": "Em uma via com três faixas, você observa uma ambulância com sirene ligada vindo pelo retrovisor. A conduta mais segura é:",
+        "alternativas": {
+            "a": "Acelerar para dar passagem",
+            "b": "Mudar para a faixa da direita e reduzir a velocidade",
+            "c": "Parar imediatamente onde estiver",
+            "d": "Continuar na mesma faixa e velocidade",
+            "e": "Ligar o pisca-alerta e manter a velocidade"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Deve-se facilitar a passagem do veículo de emergência, deslocando-se com segurança para a faixa da direita e reduzindo a velocidade.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q105",
+        "tema": "Mecânica",
+        "pergunta": "Durante a condução, você percebe um ruído metálico ao passar por lombadas. Isso pode indicar:",
+        "alternativas": {
+            "a": "Problema no sistema de escapamento",
+            "b": "Amortecedores desgastados",
+            "c": "Bateria fraca",
+            "d": "Filtro de ar sujo",
+            "e": "Problema na embreagem"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Ruídos metálicos ao passar por irregularidades geralmente indicam desgaste dos amortecedores, comprometendo a estabilidade e segurança do veículo.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q106",
+        "tema": "Direção Defensiva",
+        "pergunta": "Em uma via com tráfego intenso de motocicletas, qual a conduta mais segura?",
+        "alternativas": {
+            "a": "Manter-se sempre no centro da faixa",
+            "b": "Mudar constantemente de faixa",
+            "c": "Ignorar a presença das motocicletas",
+            "d": "Trafegar próximo ao meio-fio",
+            "e": "Buzinar para alertar os motociclistas"
+        },
+        "resposta_correta": "a",
+        "explicacao": "Manter-se no centro da faixa dificulta ultrapassagens perigosas de motocicletas e oferece margem de segurança para ambos os lados.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q107",
+        "tema": "Mecânica",
+        "pergunta": "Durante a condução, você percebe uma vibração no volante que aumenta com a velocidade. Isso pode indicar:",
+        "alternativas": {
+            "a": "Problema no sistema de arrefecimento",
+            "b": "Desbalanceamento das rodas",
+            "c": "Nível baixo de óleo",
+            "d": "Problema na bateria",
+            "e": "Filtro de ar sujo"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Vibração no volante que aumenta com a velocidade geralmente indica desbalanceamento das rodas, podendo também ser causada por pneus desgastados irregularmente.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q108",
+        "tema": "Direção Defensiva",
+        "pergunta": "Em uma via com faixa exclusiva de ônibus à direita, você precisa fazer uma conversão à direita. A sequência correta de ações é:",
+        "alternativas": {
+            "a": "Entrar rapidamente na faixa exclusiva e converter",
+            "b": "Sinalizar, verificar o tráfego de ônibus e atravessar a faixa com segurança",
+            "c": "Buzinar e entrar na faixa exclusiva",
+            "d": "Fazer a conversão pela faixa da esquerda",
+            "e": "Aguardar um ônibus e segui-lo"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Deve-se sinalizar a intenção, verificar o tráfego de ônibus e atravessar a faixa exclusiva apenas quando for seguro fazer a conversão.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q109",
+        "tema": "Mecânica",
+        "pergunta": "O veículo apresenta dificuldade para engatar marchas e faz ruído metálico ao tentar. Isso indica:",
+        "alternativas": {
+            "a": "Problema no alternador",
+            "b": "Desgaste da embreagem",
+            "c": "Pneus desalinhados",
+            "d": "Problema no radiador",
+            "e": "Bateria fraca"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Dificuldade para engatar marchas e ruídos metálicos durante a tentativa são sinais típicos de desgaste do sistema de embreagem.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q110",
+        "tema": "Direção Defensiva",
+        "pergunta": "Em uma via com declive acentuado e curvas, qual a técnica mais segura de condução?",
+        "alternativas": {
+            "a": "Usar apenas o freio quando necessário",
+            "b": "Manter o veículo em ponto morto",
+            "c": "Utilizar marcha reduzida e freio motor",
+            "d": "Usar apenas o freio de mão",
+            "e": "Manter velocidade constante em neutro"
+        },
+        "resposta_correta": "c",
+        "explicacao": "Em declives acentuados, deve-se usar marcha reduzida e freio motor para melhor controle do veículo e preservação do sistema de freios.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q111",
+        "tema": "Direção Defensiva",
+        "pergunta": "Em uma rodovia durante a noite, você percebe que o veículo à sua frente está em zigue-zague. A conduta mais segura é:",
+        "alternativas": {
+            "a": "Ultrapassar imediatamente",
+            "b": "Aumentar a distância e alertar as autoridades",
+            "c": "Buzinar continuamente",
+            "d": "Tentar emparelhar para conversar",
+            "e": "Piscar o farol alto várias vezes"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Manter distância segura e alertar as autoridades é a conduta mais adequada, pois o condutor pode estar sob efeito de álcool ou com sono.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q112",
+        "tema": "Mecânica",
+        "pergunta": "Durante a condução, você percebe um cheiro forte de combustível dentro do veículo. A ação mais segura é:",
+        "alternativas": {
+            "a": "Abrir os vidros e continuar até o destino",
+            "b": "Parar em local seguro e verificar o sistema de alimentação",
+            "c": "Aumentar a velocidade para ventilar",
+            "d": "Ligar o ar condicionado no máximo",
+            "e": "Ignorar se o carro estiver funcionando bem"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Cheiro de combustível pode indicar vazamentos, que são extremamente perigosos. Deve-se parar imediatamente em local seguro para verificação.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q113",
+        "tema": "Direção Defensiva",
+        "pergunta": "Em uma via com ciclovia, você observa um ciclista tentando atravessar para acessar a ciclovia. A atitude correta é:",
+        "alternativas": {
+            "a": "Acelerar para passar antes do ciclista",
+            "b": "Reduzir a velocidade e facilitar a travessia",
+            "c": "Buzinar para que ele espere",
+            "d": "Manter a velocidade pois tem preferência",
+            "e": "Desviar bruscamente"
+        },
+        "resposta_correta": "b",
+        "explicacao": "A atitude defensiva correta é reduzir a velocidade e facilitar a travessia segura do ciclista, protegendo o usuário mais vulnerável.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q114",
+        "tema": "Mecânica",
+        "pergunta": "O veículo apresenta dificuldade para ligar em dias frios, mas funciona normalmente quando aquecido. Isso pode indicar:",
+        "alternativas": {
+            "a": "Problema no radiador",
+            "b": "Velas de ignição com problema",
+            "c": "Pneus desalinhados",
+            "d": "Problema na direção",
+            "e": "Amortecedores gastos"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Dificuldade para dar partida a frio geralmente indica problemas nas velas de ignição ou no sistema de partida a frio do veículo.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q115",
+        "tema": "Direção Defensiva",
+        "pergunta": "Em uma via com faixa exclusiva para ônibus, você observa uma ambulância com sirene ligada nesta faixa. Nesta situação:",
+        "alternativas": {
+            "a": "A ambulância está errada por usar a faixa exclusiva",
+            "b": "Deve-se facilitar a passagem da ambulância",
+            "c": "A ambulância deve usar outra faixa",
+            "d": "Deve-se alertar a autoridade de trânsito",
+            "e": "Os ônibus têm preferência sobre a ambulância"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Veículos de emergência com sirene ligada têm prioridade de passagem em qualquer situação, inclusive em faixas exclusivas.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q116",
+        "tema": "Direção Defensiva",
+        "pergunta": "Em uma via com várias faixas, você percebe que um caminhão está sinalizando para mudar para sua faixa. A atitude mais segura é:",
+        "alternativas": {
+            "a": "Acelerar para não deixar o caminhão entrar",
+            "b": "Reduzir a velocidade e facilitar a mudança de faixa",
+            "c": "Buzinar para indicar sua presença",
+            "d": "Manter a velocidade pois tem preferência",
+            "e": "Mudar rapidamente de faixa"
+        },
+        "resposta_correta": "b",
+        "explicacao": "A atitude defensiva é facilitar a manobra do caminhão, considerando suas limitações de visibilidade e manobra.",
+        "dificuldade": "media"
+    },
+    {
+        "id": "Q117",
+        "tema": "Mecânica",
+        "pergunta": "Durante a condução, o ponteiro da temperatura sobe rapidamente e você observa vapor saindo do capô. A sequência correta de ações é:",
+        "alternativas": {
+            "a": "Continuar até uma oficina próxima",
+            "b": "Parar, aguardar esfriar e verificar o nível do líquido de arrefecimento",
+            "c": "Adicionar água fria imediatamente",
+            "d": "Acelerar para ventilar o motor",
+            "e": "Ligar o ar condicionado no máximo"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Em caso de superaquecimento, deve-se parar em local seguro, aguardar o motor esfriar naturalmente antes de verificar o sistema de arrefecimento.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q118",
+        "tema": "Direção Defensiva",
+        "pergunta": "Em uma via com trânsito lento, você observa uma motocicleta se aproximando entre as faixas. A conduta mais segura é:",
+        "alternativas": {
+            "a": "Fechar o espaço para impedir a passagem",
+            "b": "Manter-se na faixa sem movimentos bruscos",
+            "c": "Mudar de faixa rapidamente",
+            "d": "Buzinar para alertar outros veículos",
+            "e": "Tentar acompanhar a motocicleta"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Deve-se manter o veículo em sua faixa, sem movimentos bruscos, permitindo a passagem segura da motocicleta.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q119",
+        "tema": "Direção Defensiva",
+        "pergunta": "Em uma rotatória com várias faixas, você percebe que um veículo está entrando sem respeitar a preferência. A ação mais segura é:",
+        "alternativas": {
+            "a": "Buzinar e manter a velocidade",
+            "b": "Reduzir a velocidade e se necessário parar",
+            "c": "Acelerar para passar primeiro",
+            "d": "Desviar bruscamente",
+            "e": "Manter a velocidade pois tem preferência"
+        },
+        "resposta_correta": "b",
+        "explicacao": "Mesmo tendo a preferência, a atitude defensiva é reduzir a velocidade e, se necessário, parar para evitar o acidente.",
+        "dificuldade": "dificil"
+    },
+    {
+        "id": "Q120",
+        "tema": "Direção Defensiva",
+        "pergunta": "Durante uma ultrapassagem em rodovia, você percebe um veículo vindo no sentido contrário. A ação imediata deve ser:",
+        "alternativas": {
+            "a": "Acelerar ao máximo para completar a ultrapassagem",
+            "b": "Retornar à faixa original reduzindo a velocidade",
+            "c": "Buzinar para alertar o outro veículo",
+            "d": "Desviar para o acostamento",
+            "e": "Manter a velocidade e direção"
+        },
+        "resposta_correta": "b",
+        "explicacao": "A ação mais segura é abortar a ultrapassagem, retornando à faixa original com redução de velocidade para evitar colisão frontal.",
+        "dificuldade": "dificil"
+    }
+] 

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Trânsito</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header com Login e Navegação -->
+    <header class="site-header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="login-area">
+                    <div class="auth-buttons">
+                        <button id="btn-login" class="auth-btn">Login</button>
+                        <button id="btn-signup" class="auth-btn">Inscreva-se</button>
+                        <div class="user-info escondido">
+                            <span class="user-name"></span>
+                            <button id="btn-logout" class="auth-btn">Sair</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="Logo Quiz Trânsito">
+                        <h1>Quiz de Trânsito</h1>
+                    </div>
+                    <div class="menu-hamburguer">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav class="menu-principal">
+                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="quiz.html" class="nav-link">Quiz</a>
+                        <a href="ranking.html" class="nav-link">Ranking</a>
+                        <a href="placas.html" class="nav-link">Placas</a>
+                        <a href="sobre.html" class="nav-link">Sobre Nós</a>
+                        <a href="contato.html" class="nav-link">Contato</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Modais de Autenticação -->
+    <div id="login-modal" class="modal escondido">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Login</h2>
+                <span class="close-modal">&times;</span>
+            </div>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Senha</label>
+                    <input type="password" id="login-password" required>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn-submit">Entrar</button>
+                    <a href="#" id="forgot-password">Esqueceu a senha?</a>
+                </div>
+                <div class="error-message"></div>
+            </form>
+        </div>
+    </div>
+
+    <div id="signup-modal" class="modal escondido">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Criar Conta</h2>
+                <span class="close-modal">&times;</span>
+            </div>
+            <form id="signup-form">
+                <div class="form-group">
+                    <label for="signup-name">Nome completo</label>
+                    <input type="text" id="signup-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-email">Email</label>
+                    <input type="email" id="signup-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-phone">Telefone</label>
+                    <input type="tel" id="signup-phone" pattern="\(\d{2}\)\s\d{5}-\d{4}" placeholder="(99) 99999-9999" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-whatsapp">WhatsApp</label>
+                    <input type="tel" id="signup-whatsapp" pattern="\(\d{2}\)\s\d{5}-\d{4}" placeholder="(99) 99999-9999">
+                </div>
+                <div class="form-group">
+                    <label for="signup-password">Senha</label>
+                    <input type="password" id="signup-password" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-confirm-password">Confirmar senha</label>
+                    <input type="password" id="signup-confirm-password" required>
+                </div>
+                <button type="submit" class="btn-submit">Criar conta</button>
+                <div class="error-message"></div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Banner Carrossel -->
+    <section class="banner-carrossel">
+        <div class="carrossel-container">
+            <div class="carrossel-slide">
+                <img src="images/banner1.jpg" alt="Banner 1">
+                <div class="slide-content">
+                    <h2>Prepare-se para sua CNH</h2>
+                    <p>Estude com nossos simulados e aumente suas chances de aprovação</p>
+                    <a href="quiz.html" class="btn-quiz-start">Começar Quiz</a>
+                </div>
+            </div>
+            <div class="carrossel-slide">
+                <img src="images/banner2.jpg" alt="Banner 2">
+                <div class="slide-content">
+                    <h2>Aprenda sobre Legislação</h2>
+                    <p>Conheça as leis de trânsito de forma interativa</p>
+                </div>
+            </div>
+            <div class="carrossel-slide">
+                <img src="images/banner3.jpg" alt="Banner 3">
+                <div class="slide-content">
+                    <h2>Estude as Placas</h2>
+                    <p>Aprenda o significado de todas as placas de trânsito</p>
+                </div>
+            </div>
+            <button class="carrossel-btn prev">❮</button>
+            <button class="carrossel-btn next">❯</button>
+            <div class="carrossel-dots"></div>
+        </div>
+    </section>
+
+    <!-- Conteúdo Principal -->
+    <main class="site-main">
+        <div class="container">
+            <section class="destaques">
+                <h2>Destaques</h2>
+                <div class="cards-grid">
+                    <div class="card">
+                        <img src="images/quiz-icon.png" alt="Quiz">
+                        <h3>Simulados</h3>
+                        <p>Teste seus conhecimentos com nossos simulados</p>
+                        <button class="btn-quiz-start">Fazer Simulado</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/placas-icon.png" alt="Placas">
+                        <h3>Placas</h3>
+                        <p>Estude todas as placas de trânsito</p>
+                        <a href="#" class="btn-card">Estudar</a>
+                    </div>
+                    <div class="card">
+                        <img src="images/legislacao-icon.png" alt="Legislação">
+                        <h3>Legislação</h3>
+                        <p>Aprenda sobre as leis de trânsito</p>
+                        <a href="#" class="btn-card">Aprender</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Sobre o Quiz de Trânsito</h3>
+                    <p>Aplicativo desenvolvido para auxiliar no estudo para a prova teórica do DETRAN.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li><a href="https://www.gov.br/prf/pt-br" target="_blank">Polícia Rodoviária Federal</a></li>
+                        <li><a href="https://www.gov.br/infraestrutura/pt-br/assuntos/transito/conteudo-denatran" target="_blank">DENATRAN</a></li>
+                        <li><a href="https://www.gov.br/infraestrutura/pt-br/assuntos/transito/arquivos-senatran/legislacao/contran" target="_blank">CONTRAN</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contato</h3>
+                    <p>Em caso de dúvidas ou sugestões, entre em contato:</p>
+                    <a href="mailto:contato@quiztransito.com">contato@quiztransito.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Quiz de Trânsito - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="auth.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Código do carrossel
+        let slideIndex = 0;
+        const slides = document.querySelectorAll('.carrossel-slide');
+        const dots = document.querySelector('.carrossel-dots');
+
+        // Criar dots
+        slides.forEach((_, i) => {
+            const dot = document.createElement('span');
+            dot.className = 'dot';
+            dot.onclick = () => currentSlide(i);
+            dots.appendChild(dot);
+        });
+
+        function showSlides(n) {
+            slideIndex = n;
+            if (slideIndex >= slides.length) slideIndex = 0;
+            if (slideIndex < 0) slideIndex = slides.length - 1;
+
+            slides.forEach(slide => slide.style.display = 'none');
+            document.querySelectorAll('.dot').forEach(dot => dot.classList.remove('active'));
+
+            slides[slideIndex].style.display = 'block';
+            document.querySelectorAll('.dot')[slideIndex].classList.add('active');
+        }
+
+        function nextSlide() {
+            showSlides(slideIndex + 1);
+        }
+
+        function prevSlide() {
+            showSlides(slideIndex - 1);
+        }
+
+        function currentSlide(n) {
+            showSlides(n);
+        }
+
+        // Navegação do carrossel
+        document.querySelector('.prev').onclick = () => prevSlide();
+        document.querySelector('.next').onclick = () => nextSlide();
+
+        // Auto-play do carrossel
+        setInterval(nextSlide, 5000);
+
+        // Iniciar carrossel
+        showSlides(0);
+    </script>
+</body>
+</html> 

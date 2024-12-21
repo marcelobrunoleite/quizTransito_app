@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado do Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="main-header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="Logo Quiz Trânsito">
+                        <h1>Quiz de Trânsito</h1>
+                    </div>
+                    <div class="menu-hamburguer">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav class="menu-principal">
+                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="quiz.html" class="nav-link">Quiz</a>
+                        <a href="ranking.html" class="nav-link">Ranking</a>
+                        <a href="placas.html" class="nav-link">Placas</a>
+                        <a href="sobre.html" class="nav-link">Sobre Nós</a>
+                        <a href="contato.html" class="nav-link">Contato</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="resultado" class="resultado-container">
+            <h2>Resultado do Quiz</h2>
+            
+            <!-- Gráfico tipo rosca -->
+            <div class="donut-chart-container">
+                <div class="donut-chart">
+                    <svg width="200" height="200" viewBox="0 0 200 200">
+                        <!-- Círculo base (cinza) -->
+                        <circle cx="100" cy="100" r="90" fill="none" stroke="#1a1a3a" stroke-width="20"/>
+                        <!-- Círculo de progresso (será animado) -->
+                        <circle id="progress-circle" cx="100" cy="100" r="90" fill="none" 
+                                stroke="var(--neon-primary)" stroke-width="20"
+                                stroke-dasharray="565.48" stroke-dashoffset="565.48"
+                                transform="rotate(-90 100 100)"/>
+                        <!-- Texto central -->
+                        <text id="percentage" x="100" y="100" text-anchor="middle" dominant-baseline="middle"
+                              font-size="2.5rem" fill="var(--neon-primary)">0%</text>
+                        <text id="status-text" x="100" y="130" text-anchor="middle" dominant-baseline="middle"
+                              font-size="1.2rem" fill="var(--light-text)"></text>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="resultado-info">
+                <p>Você acertou <span id="acertos"></span> de <span id="total"></span> questões.</p>
+            </div>
+            
+            <div class="resultado-status">
+                <div id="status-badge" class="status-badge">
+                    <span id="status-icon"></span>
+                    <span id="status-message"></span>
+                </div>
+            </div>
+            
+            <div class="resultado-acoes">
+                <button onclick="window.location.href='quiz.html'" class="btn-primary">Tentar Novamente</button>
+                <button onclick="window.location.href='index.html'" class="btn-secondary">Voltar para Home</button>
+                <button onclick="mostrarGabarito()" class="btn-gabarito">Ver Gabarito</button>
+            </div>
+
+            <!-- Nova seção para o gabarito -->
+            <div id="gabarito-container" class="gabarito-container escondido">
+                <h3>Gabarito Comentado</h3>
+                <div id="lista-questoes" class="lista-questoes">
+                    <!-- As questões serão inseridas aqui via JavaScript -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const params = new URLSearchParams(window.location.search);
+            const pontuacao = parseInt(params.get('pontuacao'));
+            const total = parseInt(params.get('total'));
+            const porcentagem = parseFloat(params.get('porcentagem'));
+
+            // Atualizar textos
+            document.getElementById('acertos').textContent = pontuacao;
+            document.getElementById('total').textContent = total;
+            
+            // Atualizar gráfico rosca
+            const progressCircle = document.getElementById('progress-circle');
+            const percentageText = document.getElementById('percentage');
+            const statusText = document.getElementById('status-text');
+            const statusBadge = document.getElementById('status-badge');
+            const statusMessage = document.getElementById('status-message');
+            const statusIcon = document.getElementById('status-icon');
+
+            // Animação do gráfico
+            const circumference = 2 * Math.PI * 90; // 2πr
+            const offset = circumference - (porcentagem / 100 * circumference);
+            
+            // Animar preenchimento
+            setTimeout(() => {
+                progressCircle.style.transition = 'stroke-dashoffset 1s ease-in-out';
+                progressCircle.style.strokeDashoffset = offset;
+                
+                // Animar percentual
+                let currentPercent = 0;
+                const duration = 1000; // 1 segundo
+                const interval = 10; // Atualizar a cada 10ms
+                const steps = duration / interval;
+                const increment = porcentagem / steps;
+
+                const counter = setInterval(() => {
+                    currentPercent += increment;
+                    if (currentPercent >= porcentagem) {
+                        currentPercent = porcentagem;
+                        clearInterval(counter);
+                    }
+                    percentageText.textContent = `${Math.round(currentPercent)}%`;
+                }, interval);
+            }, 100);
+
+            // Definir status e cores
+            if (porcentagem >= 70) {
+                statusText.textContent = 'APROVADO';
+                progressCircle.style.stroke = '#00ff88';
+                percentageText.style.fill = '#00ff88';
+                statusText.style.fill = '#00ff88';
+                statusBadge.classList.add('aprovado');
+                statusMessage.textContent = 'APROVADO';
+                statusIcon.innerHTML = '✓';
+            } else {
+                statusText.textContent = 'REPROVADO';
+                progressCircle.style.stroke = '#ff0055';
+                percentageText.style.fill = '#ff0055';
+                statusText.style.fill = '#ff0055';
+                statusBadge.classList.add('reprovado');
+                statusMessage.textContent = 'REPROVADO';
+                statusIcon.innerHTML = '✗';
+            }
+
+            // Recuperar questões e respostas da sessão
+            const questoesRespondidas = JSON.parse(sessionStorage.getItem('questoesRespondidas')) || [];
+            const respostasUsuario = JSON.parse(sessionStorage.getItem('respostasUsuario')) || [];
+
+            window.mostrarGabarito = function() {
+                const gabaritoContainer = document.getElementById('gabarito-container');
+                const listaQuestoes = document.getElementById('lista-questoes');
+                
+                if (gabaritoContainer.classList.contains('escondido')) {
+                    gabaritoContainer.classList.remove('escondido');
+                    
+                    // Recuperar todas as questões e respostas
+                    const todasQuestoes = JSON.parse(sessionStorage.getItem('todasQuestoes')) || [];
+                    const respostas = JSON.parse(sessionStorage.getItem('respostas')) || [];
+                    
+                    // Limpar conteúdo anterior
+                    listaQuestoes.innerHTML = '';
+                    
+                    // Criar elementos para cada questão
+                    todasQuestoes.forEach((questao, index) => {
+                        const resposta = respostas[index] || {};
+                        const respostaUsuario = resposta.respostaUsuario;
+                        const estaCorreta = resposta.correta;
+                        
+                        const questaoElement = document.createElement('div');
+                        questaoElement.className = 'questao-gabarito';
+                        
+                        questaoElement.innerHTML = `
+                            <div class="questao-header">
+                                <span class="questao-numero">Questão ${index + 1}</span>
+                                ${respostaUsuario ? `
+                                    <span class="questao-status ${estaCorreta ? 'correto' : 'incorreto'}">
+                                        ${estaCorreta ? '✓ Correta' : '✗ Incorreta'}
+                                    </span>
+                                ` : ''}
+                            </div>
+                            <p class="questao-texto">${questao.pergunta}</p>
+                            <div class="alternativas-gabarito">
+                                ${Object.entries(questao.alternativas).map(([letra, texto]) => `
+                                    <div class="alternativa-gabarito 
+                                        ${letra === questao.resposta_correta ? 'correta' : ''} 
+                                        ${letra === respostaUsuario ? 'selecionada' : ''}">
+                                        <span class="letra">${letra.toUpperCase()})</span>
+                                        <span class="texto">${texto}</span>
+                                        ${letra === questao.resposta_correta ? 
+                                            '<span class="icone-correto">✓</span>' : 
+                                            (letra === respostaUsuario && !estaCorreta ? 
+                                                '<span class="icone-incorreto">✗</span>' : '')}
+                                    </div>
+                                `).join('')}
+                            </div>
+                            <div class="explicacao-gabarito">
+                                <h4>Explicação:</h4>
+                                <p>${questao.explicacao}</p>
+                            </div>
+                        `;
+                        
+                        listaQuestoes.appendChild(questaoElement);
+                    });
+                } else {
+                    gabaritoContainer.classList.add('escondido');
+                }
+            };
+        });
+    </script>
+</body>
+</html> 

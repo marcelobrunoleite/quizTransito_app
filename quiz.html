@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Trânsito - Simulado</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header com Navegação -->
+    <header class="site-header">
+        <div class="main-header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="Logo Quiz Trânsito">
+                        <h1>Quiz de Trânsito</h1>
+                    </div>
+                    <div class="menu-hamburguer">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav class="menu-principal">
+                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="quiz.html" class="nav-link">Quiz</a>
+                        <a href="ranking.html" class="nav-link">Ranking</a>
+                        <a href="placas.html" class="nav-link">Placas</a>
+                        <a href="sobre.html" class="nav-link">Sobre Nós</a>
+                        <a href="contato.html" class="nav-link">Contato</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conteúdo do Quiz -->
+    <main class="site-main">
+        <div class="container">
+            <div id="quiz">
+                <div class="modo-visualizacao-quiz">
+                    <div class="opcoes-visualizacao">
+                        <label class="opcao-radio">
+                            <input type="radio" name="modo-resposta" value="imediato" checked>
+                            <div class="radio-card">
+                                <span class="radio-icon">✓</span>
+                                <span class="label-texto">Ver resposta após cada questão</span>
+                            </div>
+                        </label>
+                        <label class="opcao-radio">
+                            <input type="radio" name="modo-resposta" value="final">
+                            <div class="radio-card">
+                                <span class="radio-icon">⚡</span>
+                                <span class="label-texto">Ver respostas somente no final</span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div class="quiz-header">
+                    <div id="progresso">Questão 1 de 30</div>
+                    <div id="tempo">60:00</div>
+                </div>
+
+                <div id="questao-container">
+                    <div class="questao-header">
+                        <h3 id="pergunta"></h3>
+                        <span class="dificuldade"></span>
+                    </div>
+                    <div id="alternativas" class="alternativas-container">
+                        <!-- Alternativas serão inseridas via JavaScript -->
+                    </div>
+                </div>
+
+                <button id="confirmar" class="btn-quiz" disabled>Confirmar Resposta</button>
+
+                <div id="feedback" class="escondido">
+                    <div id="resposta-feedback" class="escondido">
+                        <div class="feedback-icon"></div>
+                        <p class="feedback-texto"></p>
+                    </div>
+                    <div class="explicacao-container">
+                        <h3>Explicação:</h3>
+                        <p id="explicacao"></p>
+                    </div>
+                    <button id="proxima" class="btn-quiz">Próxima Questão</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Sobre o Quiz de Trânsito</h3>
+                    <p>Aplicativo desenvolvido para auxiliar no estudo para a prova teórica do DETRAN.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li><a href="https://www.gov.br/prf/pt-br" target="_blank">Polícia Rodoviária Federal</a></li>
+                        <li><a href="https://www.gov.br/infraestrutura/pt-br/assuntos/transito/conteudo-denatran" target="_blank">DENATRAN</a></li>
+                        <li><a href="https://www.gov.br/infraestrutura/pt-br/assuntos/transito/arquivos-senatran/legislacao/contran" target="_blank">CONTRAN</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contato</h3>
+                    <p>Em caso de dúvidas ou sugestões, entre em contato:</p>
+                    <a href="mailto:contato@quiztransito.com">contato@quiztransito.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Quiz de Trânsito - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
